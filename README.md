@@ -1,24 +1,24 @@
-# README
+## README - Book Lending Library
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 3.4.2
+* Rails version: 8.0.1
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- **User Registration & Login:** Built using Rails’ `has_secure_password`.
+- **Book Listings:** View all books with their availability status.
+- **Borrowing:** Create a Borrowing record linking the user and book.
+- **Returning:** Mark a borrowing as returned.
+- **Profile Page:** View all books you currently have borrowed.
 
-* System dependencies
+$ represents commands to be executed as they are minus the dollar sign
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. **Clone the repository:**
+  $ git clone https://github.com/yourusername/book_lending_library.git
+  $ cd book_lending_library
+2. $ bundle install
+3. $ rails db:migrate
+4. $ rails server
+5. Visit: http://localhost:3000
+6. $ rails console
+6. $ rails test
